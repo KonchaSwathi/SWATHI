@@ -1,0 +1,16 @@
+<div>
+    <div>
+    value1 <input type="text"#num1>
+    value2 <input type="text"#num2>
+    </div>
+    <div>
+    <input type="submit"value="+" (click)="saveadd(num1,num2)"/>
+    <input type="submit"value="-"(click)="savesub(num1,num2)"/>
+    <input type="submit"value="*"/>
+    <input type="submit"value="/"/>
+    </div>
+    <div>
+    Result:<input type="text"value="{{Result}}"/>
+    Reset:<input type="submit"value="Reset"/> 
+    </div>
+</div>

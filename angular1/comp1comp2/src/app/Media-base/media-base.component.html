@@ -1,0 +1,41 @@
+<div>
+      <div class="row">
+        <div class="col"><label for="">name</label></div>
+        <div class="col"><input type="text"#name/></div>
+      </div>
+       <div class="row">
+        <div class="col"><label for="">description</label></div>
+        <div class="col"><input type="text" #desc /></div>
+      </div>
+      <div class="row">
+        <div class="col"><label for="">tags</label></div>
+        <div class="col"><input type="text" #tags/></div>
+      </div>
+      <div class="row">
+        <div class="col"><label for="">filename</label></div>
+        <div class="col"><input type="text" #file /></div>
+      </div>
+    <div class="row">
+         <div class="col"><input type="button" value="Save" (click)="save(name,desc, tags,file)"/>
+        </div>
+    </div>
+</div>  
+<hr/>
+<div>
+  <table class="table">
+    <thead>
+      <th>NAME</th>
+      <th>DESCRIPTION</th>
+      <th>TAG</th>
+      <th>FILENAME</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let m of mediainformations">
+        <td>{{m.name}}</td>
+        <td>{{m.description}}</td>
+        <td>{{m.tags}}</td>
+        <td>{{m.filename}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>   

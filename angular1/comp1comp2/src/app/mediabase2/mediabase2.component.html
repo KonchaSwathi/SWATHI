@@ -1,0 +1,18 @@
+<div>
+    <table class="table">
+      <thead>
+        <th>NAME</th>
+        <th>DESCRIPTION</th>
+        <th>TAG</th>
+        <th>FILENAME</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let m of  mediaInformation">
+          <td>{{m.name}}</td>
+          <td>{{m.description}}</td>
+          <td>{{m.tags}}</td>
+          <td>{{m.filename}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
