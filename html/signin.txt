@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+</head>
+  <header>
+     <hgroup>
+     	  <div> <img src="" width="40"Height="60" ></div>
+     <div>
+           <nav align="center">
+				<ul>
+					<input type = "submit" value="UploadMedia">
+					<input type="submit"value="Mymedia">
+					<input type="submit"value="Followers/Following">  
+					    <input type="submit"value="Account"> 	
+				</ul>
+	      </nav>
+	</div>
+   </hgroup>
+	  <hgroup>
+	  	 <section>
+	  	  <div><img src="" width="40px" height="50px"></div>
+	  	    <div align="center">
+	  	         @Welcome
+	  	     </div>
+	  	     </section>
+	  	     </hgroup> 
+	  	 </header>
+	  	     <br>
+	  	     <br> 	   
+	  	  	<body>
+	  	  		<aside>
+	  	  			<ul>
+	  	  				<header>
+	  	  		    	<hgroup>
+	  	  		    		<h1><u>Account</u></h1>
+	  	  		    	</hgroup>
+	  	  		    </header>
+	  	  		    </u>
+	  	  		</aside>    
+	  	  		   
+	  	  		    <br>		
+                     <div>	
+	  	  		        <input type="submit"value="login">
+	  	  		    </div>
+	  	  		    <div>
+	  	  		    	<input type="submit"value="Register">
+	  	  		    </div>
+	  	  		</aside>
+	  	  		<div align ="center">
+	  	  			    <div><input type="button" value="login"></div>
+	  	  			<br>
+	  	  			<br>           
+	  	  		username        <input type="text"name="username">     <input type="submit" value="check">
+	  	  		<br>
+	  	  		<br>
+	  	  		password        <input type="password" name="password" max="8">
+	  	  		<br>
+	  	  		<br>
+	  	  		Repeat Password <input type="password" name="password" max="8">
+	  	  		<br>
+	  	  		<br>
+	  	  		email            <input type="email" name="email">
+	  	  		<br>
+	  	  		                 <input type="submit" value="Register"></div>
+	  	  </body>
+	  	  </html>		        
+
+    		
+
+

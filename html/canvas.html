@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canvas</title>
+</head>
+<body>
+  <canavas id="mycanvas" width="500" height="600"style="border:solid;">
+  	<h1>canavas not supported</h1>
+  </canavas>
+  <input type="button" value="linedraw"	onlick="linedraw()">
+  <br>
+  <br>
+  <input type="button" value="imageDraw" onclick="imageDraw()">
+  <br>
+  <br>
+  <input type="button" value="textDraw" onclick="textDraw()">
+  <br>
+  <br>
+  function imageDraw()
+  {
+	 
+		var myCanvas =  document.getElementById("myCanvas");
+		var context = myCanvas.getContext("2d");
+		var img = new Image();
+		img.src = "./images/html5.png";
+		img.onload = function(){
+			context.drawImage(img, 10, 20);
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			/*div p{  desc: all p's inside div
+				background-color: red;
+			}*/
+
+			div > p{  /* child: all p's inside div */
+				background-color: red;
+			}
+
+			/*div + p{  /* adjacent sibling down the line
+				background-color: red;
+			}*/
+
+			/*li + li {
+				background-color: Green;
+			}*/
+
+			/*div ~ p{  /* general sibling down the line
+				background-color: red;
+				}
+
+
+		</style>
+	</head>
+	<body>
+		<p>First Paragraph</p>
+		<div>
+			<p>First para of Div</p>
+			<ul>
+				<li>First li</li>
+				<li>
+					Second li
+					<p>Para inside second li</p>
+				</li>
+				<li>Third li</li>
+				<li>Fourth li</li>
+			</ul>
+			<p>Second para of Div</p>
+		</div>
+		<p>First Paragraph after div</p>
+
+		<p>Second Paragraph after div</p>
+
+		<p>Third Paragraph after div</p>
+	</body>
+	</html>	
